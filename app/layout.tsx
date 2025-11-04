@@ -35,15 +35,15 @@ export const metadata: Metadata = {
   icons: {
     icon: "/brand/diamond.ico",
     shortcut: "/brand/diamond.ico",
-    apple: "/brand/diamond-apple-touch-icon.png",
+    apple: "/brand/diamond.ico",
     other: [
       {
         rel: "android-chrome",
-        url: "/brand/android-chrome-192x192.png",
+        url: "/brand/diamond.ico",
       },
       {
         rel: "android-chrome",
-        url: "/brand/android-chrome-512x512.png",
+        url: "/brand/diamond.ico",
       },
     ],
   },
