@@ -32,7 +32,22 @@ export const metadata: Metadata = {
   title: "TON | The Open Network | Decentralized Blockchain Built for Everyone",
   description:
     "Discover TON — The Open Network built by the community using Telegram's technology. Fast, scalable, and user-friendly, TON is powering Web3 for 500M people worldwide.",
-  icons: "/brand/diamond.ico",
+  icons: {
+    icon: "/brand/diamond.ico",
+    shortcut: "/brand/diamond.ico",
+    apple: "/brand/diamond-apple-touch-icon.png",
+    other: [
+      {
+        rel: "android-chrome",
+        url: "/brand/android-chrome-192x192.png",
+      },
+      {
+        rel: "android-chrome",
+        url: "/brand/android-chrome-512x512.png",
+      },
+    ],
+  },
+  
   keywords: "ton, ton wallet,tonwallet",
 };
 
